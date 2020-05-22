@@ -1,0 +1,68 @@
+/*
+    Author: Jessmer John Palanca
+    Section: CSC337 Web Programming SPRING2019, Homework 3
+    Filename: guessingGame.css
+    Description: The css for the guessingGame.html
+*/
+
+body{
+    background-color: #24f4f4;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18pt;
+    margin: 0px;
+}
+
+h1{
+    margin: 0px;
+    font-size: 72pt;
+    position: relative;
+}
+
+#range {
+    float: right;
+    width: 20%;
+    padding: 30px;
+    background-color: #42bcf4;
+}
+
+#range > input{
+    width: 20%;
+    margin: 3px;
+}
+
+#paragraph{
+    float: left;
+    width: 60%;
+    margin-left: 10px;
+}
+
+#main{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+#input{
+    margin-left: 60px;
+    width: 30%;
+}
+
+#input > input{
+    width: 50%;
+    margin: 4px;
+}
+
+#guesses{
+    margin-left: 60px;
+    margin-top: 0px;
+    font-size: 20pt;
+    font-weight: bold;
+    width: 70%;
+}
+
+ul{
+    list-style: none;
+    font-weight: normal;
+    margin-left: 0px;
+    padding-left: 0px;
+}
